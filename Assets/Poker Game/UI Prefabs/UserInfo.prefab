@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4018015136843897349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4018015136843897347}
+  - component: {fileID: 4018015136843897348}
+  - component: {fileID: 4018015136843897346}
+  m_Layer: 0
+  m_Name: UserInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4018015136843897347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4018015136843897349}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4018015136843897348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4018015136843897349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 151f6714de3dc47c3951e932f003a7cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loginPanel: {fileID: 0}
+  forgottPassPanel: {fileID: 0}
+  holdemPanel: {fileID: 0}
+  loadingPanel: {fileID: 0}
+  chooseAvtarPanel: {fileID: 0}
+  errorPopUpPanel: {fileID: 0}
+  registrationPanel_2: {fileID: 0}
+  errorMessageText: {fileID: 0}
+  errorMessageText_popUp: {fileID: 0}
+  email_login: {fileID: 0}
+  password_login: {fileID: 0}
+  email_forgotPassword: {fileID: 0}
+  username: {fileID: 0}
+  email: {fileID: 0}
+  password: {fileID: 0}
+  emailIdText: {fileID: 0}
+  avtars:
+  - {fileID: 21300000, guid: 88d30f87d266e42639f126b3c7bdb337, type: 3}
+  - {fileID: 21300000, guid: c5c159aa5e18b4ce9879b4bd4748aacf, type: 3}
+  - {fileID: 21300000, guid: 8194a549d3323490591e02ba757ababf, type: 3}
+  - {fileID: 21300000, guid: f3b9ad8665a1242548ff7b52866602ba, type: 3}
+  - {fileID: 21300000, guid: 09221887aee6a4eb1a70e3c1b1aab7d2, type: 3}
+  - {fileID: 21300000, guid: bd0e775b29ba843d492f713ae75b3494, type: 3}
+  - {fileID: 21300000, guid: 160eaf1397e26451285e85cd4fb53fea, type: 3}
+  - {fileID: 21300000, guid: 7c7b4fe9a6f074c27a6b57ec8a160a96, type: 3}
+  - {fileID: 21300000, guid: 9961a528db95149caa3a78c8154f3718, type: 3}
+  - {fileID: 21300000, guid: 712bbc6528d0147cc9c13588d27775d5, type: 3}
+  - {fileID: 21300000, guid: 84686bc01b61143909dc289fc7e71e98, type: 3}
+  - {fileID: 21300000, guid: 49fa9b5fc0681459f97c30a800c597b1, type: 3}
+  - {fileID: 21300000, guid: a46ecbe91531d4991baf7b33d9e51b57, type: 3}
+  - {fileID: 21300000, guid: 0fe3edba1717e4b739417bad5b78e8b7, type: 3}
+  - {fileID: 21300000, guid: 1534f64ff0d624b7e8f0c3c0671a396a, type: 3}
+  - {fileID: 21300000, guid: 71f2fc0b4d99e49538339951b6a9aca6, type: 3}
+  - {fileID: 21300000, guid: 07cef27d9508a417f9492ae055eb054a, type: 3}
+  - {fileID: 21300000, guid: 44cc16c3f53b948318303878255c7f21, type: 3}
+  - {fileID: 21300000, guid: 2f0fe2313e9e744c8b0dd26e223f94b8, type: 3}
+  - {fileID: 21300000, guid: 70425eede18e440ee959748fca8b41f3, type: 3}
+  - {fileID: 21300000, guid: 75bd21e6c9b0f40e6a97bccbca482dad, type: 3}
+  - {fileID: 21300000, guid: 66a14f9d0c20e436aa6183ea209c1f71, type: 3}
+  - {fileID: 21300000, guid: af3b70c9d40a948d4917c73e3e3eafbe, type: 3}
+  - {fileID: 21300000, guid: 37f4d8469a6804783b418e54148f21e5, type: 3}
+  - {fileID: 21300000, guid: f5bda984ec56a45f6bf155e3cc8b9d2c, type: 3}
+  - {fileID: 21300000, guid: 9386b3ef198c74108a15938d19f568e2, type: 3}
+  - {fileID: 21300000, guid: 0d81ccb5fd41749168e5946a2739e600, type: 3}
+  - {fileID: 21300000, guid: a5898e34d8e7d470fb0348908ab10970, type: 3}
+  - {fileID: 21300000, guid: eb41a35fb42db45bfa53fd35c11dcdd0, type: 3}
+  - {fileID: 21300000, guid: 930147e8273914d32bafaa205d3516fd, type: 3}
+  avtars_buttons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  avtars_buttons_change:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  myprofile_1: {fileID: 0}
+  username_1: {fileID: 0}
+  email_1: {fileID: 0}
+  country_1: {fileID: 0}
+  profileImage_1: {fileID: 0}
+  profileImage_2: {fileID: 0}
+  username_2: {fileID: 0}
+  toggle_acceptAll: {fileID: 0}
+  toggle_first: {fileID: 0}
+  toggle_second: {fileID: 0}
+  nextButton: {fileID: 0}
+  code_1: {fileID: 0}
+  code_2: {fileID: 0}
+  code_3: {fileID: 0}
+  code_4: {fileID: 0}
+  submitCodeBtn: {fileID: 0}
+  _countryId: 
+  _avtarId: 
+  _username: 
+  _email: 
+  _varificationCode: 
+  _balance: 5
+  selected_avtar: {fileID: 21300000, guid: 81dffb2b9836045f9986c1d95d9ad792, type: 3}
+  deselected_avtar: {fileID: 21300000, guid: e30df610365d64e4192d54bd1bb1d81d, type: 3}
+  errorText: {fileID: 0}
+--- !u!114 &4018015136843897346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4018015136843897349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f0930bbdeb12434d8499749f6a6e62a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
